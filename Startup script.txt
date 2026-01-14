@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# 첫 번째 모니터 (XWAYLAND0)
+DISPLAY=:0 screen -dmS screen0 bash -c "cd /home/pi/Desktop && source project/bin/activate && python3 goggles.py"
